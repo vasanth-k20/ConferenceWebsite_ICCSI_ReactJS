@@ -115,7 +115,7 @@ export default function ContactSection() {
               {[
                 { label: "Address", value: "184 Main Collins Street, Las Vegas" },
                 { label: "Phone", value: "(226) 446 9731" },
-                { label: "Email", value: "confer@gmail.com" },
+                { label: "Email", value: "iccsiconfer@gmail.com" },
               ].map((info, index) => (
                 <div className="mb-3" key={index}>
                   <h4 className="mb-1 fs-4 fw-bold">{info.label}:</h4>

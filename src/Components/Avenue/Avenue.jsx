@@ -44,9 +44,9 @@ export default function Avenue() {
                         <i className="fa-solid fa-address-card"></i>
                     </div>
                     <h4>CONTACT</h4>
-                    <p><i className="fas fa-envelope"></i> Email: support@company.com</p>
-                    <p><i className="fas fa-phone"></i> Phone: +1 123-456-7890</p>
-                    <p><i className="fas fa-map"></i> Address: 123 Street, City, Country</p>
+                    <p><i className="fas fa-envelope"></i> Email: iccsiconfer@gmail.com</p>
+                    <p><i className="fas fa-phone"></i> Phone: (226) 446 9731</p>
+                    <p><i className="fas fa-map"></i> Address: 184 Main Collins Street, Las Vegas</p>
                 </div>
             </div>
         </div>
