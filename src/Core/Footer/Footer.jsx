@@ -36,17 +36,17 @@ export default function Footer() {
       <div className="footcontainer">
         <div className="footer-class">
           <p className="footer-grid">
-            Copyrights © 2024, All Rights Reserved. Powered By BIICCSI
+            Copyrights © 2024, All Rights Reserved. Powered By ICCSI
           </p>
           <ul className="social-ic-icons">
             <li className="facebook">
-              <a href="#"><span></span></a>
+              <a href="https://www.facebook.com/"><span></span></a>
             </li>
             <li className="twitter">
-              <a href="#"><span></span></a>
+              <a href="https://x.com/"><span></span></a>
             </li>
             <li className="gmail">
-              <a href="#"><span></span></a>
+              <a href="https://mail.google.com/"><span></span></a>
             </li>
             <li className="browser">
               <a href="#"><span></span></a>

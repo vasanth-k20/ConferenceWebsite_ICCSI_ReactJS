@@ -9,12 +9,12 @@ export default function Invitees() {
     };
 
     const portfolioItems = [
-        { id: 1, category: 'key', imgSrc: '/img/key1.jpg', title: 'Key Invitees' },
-        { id: 2, category: 'key', imgSrc: '/img/key2.jpg', title: 'Key Invitees' },
-        { id: 3, category: 'chief', imgSrc: '/img/chi1.jpg', title: 'Chief Patrons' },
-        { id: 4, category: 'chief', imgSrc: '/img/chi2.jpg', title: 'Chief Patrons' },
-        { id: 5, category: 'chief', imgSrc: '/img/chi3.jpg', title: 'Chief Patrons' },
-        { id: 6, category: 'chief', imgSrc: '/img/chi4.jpg', title: 'Chief Patrons' },
+        { id: 1, category: 'key', imgSrc: '/img/key1.jpg', title: 'Rajesh Kumar, University of Oxford, UK' },
+        { id: 2, category: 'key', imgSrc: '/img/key2.jpg', title: 'Priya Sharma, Indian Institute of Science, India' },
+        { id: 3, category: 'chief', imgSrc: '/img/chi1.jpg', title: 'Arjun Nair, Digital University Kerala, India' },
+        { id: 4, category: 'chief', imgSrc: '/img/chi2.jpg', title: 'Rohan Mehta, City University of London, UK' },
+        { id: 5, category: 'chief', imgSrc: '/img/chi3.jpg', title: 'Aarav Singh, University of Delhi, India' },
+        { id: 6, category: 'chief', imgSrc: '/img/chi4.jpg', title: 'Aditya Patel, National University of Singapore, Singapore' },
     ];
 
     return (
