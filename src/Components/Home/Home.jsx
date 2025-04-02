@@ -25,7 +25,7 @@ export default function Home() {
                             <a class="headregister" href="/papersub">Register</a>
                         </div>
                         <a href="#about" class="scroll">
-                            <img src="/img/down.png" class="scroll-icon" alt="Scroll Down" />
+                            <img src="img/down.png" class="scroll-icon" alt="Scroll Down" />
                         </a>
                     </div>
             </section>
