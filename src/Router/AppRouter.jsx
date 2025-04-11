@@ -11,12 +11,14 @@ import RegistrationDetails from '../Components/Pages/Author\'sDesk/RegDetails/Re
 import PaperSubmission from '../Components/Pages/Author\'sDesk/PaperSub/Papersub'
 import ContactSection from '../Components/Pages/Contact/Contact'
 import ScrollToTop from '../Scrolltotop'
+import MetaTags from '../Core/MetaTags'
 
 export default function AppRouter() {
   return (
     <div>
       <BrowserRouter>
         <ScrollToTop/>
+        <MetaTags/>
           <Routes>
             <Route element={<Main />}>
               <Route path="/" element={<Home />} />
