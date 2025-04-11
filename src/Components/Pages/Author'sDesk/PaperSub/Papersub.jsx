@@ -56,7 +56,7 @@ export default function PaperSubmission() {
         formDataToSend.append('file', formData.PaperFile);
 
         try {
-            const response = await fetch('http://localhost:5000/api/submit-paper', {
+            const response = await fetch('https://ic-csi.com/papsub.php', {
                 method: 'POST',
                 body: formDataToSend,
             });
