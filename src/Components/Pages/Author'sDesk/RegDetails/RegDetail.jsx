@@ -60,7 +60,7 @@ export default function RegistrationDetails() {
                             <tr>
                                 <td className="bankdetail-title">Account Name:</td>
                                 <td className="bankdetail-info">
-                                    J.K. Chopra Kalpana, Professor, Dept. of Computer Science & Engineering, NV College of Engineering and Technology, Las Vegas.
+                                    J.K. Chopra Kalpana, Professor, Dept. of Computer Science & Engineering, NV College of Engineering and Technology, Chennai.
                                 </td>
                             </tr>
                             <tr>
@@ -69,7 +69,7 @@ export default function RegistrationDetails() {
                             </tr>
                             <tr>
                                 <td className="bankdetail-title">Branch:</td>
-                                <td className="bankdetail-info">Las Vegas</td>
+                                <td className="bankdetail-info">Chennai</td>
                             </tr>
                             <tr>
                                 <td className="bankdetail-title">IFSC Code:</td>
