@@ -16,8 +16,8 @@ export default function Avenue() {
                 <h4 className="detail-title">WHERE</h4>
                 <p className="detail-info">
                             184 Main Collins Street,<br />
-                            Las Vegas,<br />
-                            USA
+                            Chennai,<br />
+                            Tamil Nadu, India<br />
                 </p>
             </div>
 
@@ -46,7 +46,7 @@ export default function Avenue() {
                     <h4>CONTACT</h4>
                             <p><i className="fas fa-envelope"></i> Email: iccsiconf@gmail.com</p>
                     <p><i className="fas fa-phone"></i> Phone: (226) 446 9731</p>
-                    <p><i className="fas fa-map"></i> Address: 184 Main Collins Street, Las Vegas</p>
+                    <p><i className="fas fa-map"></i> Address: 184 Main Collins Street, Chennai, Tamil Nadu</p>
                 </div>
             </div>
         </div>

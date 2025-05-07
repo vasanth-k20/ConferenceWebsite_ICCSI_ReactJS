@@ -113,7 +113,7 @@ export default function ContactSection() {
           <div className="col-12 col-md-4">
             <div className="contact-information">
               {[
-                { label: "Address", value: "184 Main Collins Street, Las Vegas" },
+                { label: "Address", value: "184 Main Collins Street, Chennai, Tamil Nadu, India" },
                 { label: "Phone", value: "(226) 446 9731" },
                 { label: "Email", value: "iccsiconf@gmail.com" },
               ].map((info, index) => (
@@ -129,7 +129,7 @@ export default function ContactSection() {
 
       <div>
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d206253.53243263296!2d-115.33980635649857!3d36.124887128813846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80beb782a4f57dd1%3A0x3accd5e6d5b379a3!2sLas%20Vegas%2C%20NV%2C%20USA!5e0!3m2!1sen!2sin!4v1746556776832!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d311592.96656195115!2d80.04386433252579!3d13.047473319171166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265ea4f7d3361%3A0x6e61a70b6863d433!2sChennai%2C%20Tamil%20Nadu!5e1!3m2!1sen!2sin!4v1746653120781!5m2!1sen!2sin"
           height="450"
           width="100%"
           style={{ border: 0 }}
