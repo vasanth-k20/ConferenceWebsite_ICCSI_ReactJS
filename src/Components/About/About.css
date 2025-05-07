@@ -1,0 +1,169 @@
+/* General Content Styles */
+.content {
+    background-color: #F7F7F7;
+}
+
+.about {
+    padding: 5em 0 4em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 70%;
+    margin: auto;
+}
+
+.about-left, .left-about {
+    flex: 1;
+    max-width: 50%;
+    box-sizing: border-box;
+}
+
+.about-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .about-left img {
+        max-width: 100%;
+        height: auto;
+        object-fit: contain;
+        display: block;
+        margin: auto;
+        padding-right: 60px;
+    }
+
+.left-about {
+    text-align: justify;
+    padding: 0 20px;
+}
+
+    .left-about small {
+        font-weight: 700;
+        font-size: 2em;
+        color: #fcac45;
+    }
+
+    .left-about p {
+        margin-top: 1em;
+        font-size: 1.2em;
+        color: black;
+        line-height: 1.6;
+    }
+
+    .left-about ul {
+        padding: 0 0 3em;
+        margin: 0;
+        list-style: disc;
+        padding-left: 20px;
+    }
+
+        .left-about ul li {
+            padding: 4px 0;
+            font-size: 1.2em;
+            font-weight: 600;
+            color: #5a5a5a;
+        }
+
+            .left-about ul li a {
+                text-decoration: none;
+                color: #5a5a5a;
+                font-weight: 700;
+                display: flex;
+                align-items: center;
+            }
+
+                .left-about ul li a i {
+                    font-size: 0.9em;
+                    font-weight: 300;
+                    margin-left: 5px;
+                }
+
+/* Browse Button */
+a.browse {
+    font-size: 1em;
+    text-decoration: none;
+    color: #5a5a5a;
+    border: 1px solid #5a5a5a;
+    padding: 0.7em 1em;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+    a.browse:hover {
+        background: rgba(252, 172, 69, 0.66);
+        border-color: rgba(252, 172, 69, 0.66);
+        color: #fff;
+    }
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .abo-container{
+        width: 100%;
+    }
+
+    .about-left, .left-about {
+        max-width: 100%;
+        padding:20px 0;
+        padding-bottom:0;
+    }
+
+        .about-left img {
+            max-width:70%;
+            padding-right: 0;
+        }
+}
+
+@media (max-width: 768px) {
+    .about {
+        padding: 4em 0;
+    }
+
+    .about-left img {
+        max-width: 90%;
+    }
+
+    .left-about small {
+        font-size: 1.8em;
+    }
+
+    .left-about h3 {
+        font-size: 2.5em;
+    }
+
+    .left-about p {
+        font-size: 1.1em;
+        text-align: justify;
+    }
+}
+
+@media (max-width: 480px) {
+    .about {
+        padding: 3em 1em;
+        max-width: 100%;
+
+    }
+
+    .about-left img {
+        max-width: 90%;
+    }
+
+    .left-about small {
+        font-size: 1.5em;
+    }
+
+    .left-about h3 {
+        font-size: 2em;
+    }
+
+    .left-about p {
+        font-size: 1em;
+        text-align: justify;
+    }
+}

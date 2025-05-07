@@ -1,0 +1,215 @@
+/* Avenue Section */
+.avenue {
+    padding-top: 3em; 
+    padding-bottom:3em;
+    background-color: #e2e2e2;
+    text-align: center;
+}
+
+/* Event Details (Top Section) */
+.event-details {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.event-detail-box {
+    padding: 20px 30px;
+    border-end-start-radius:50px;
+    border-start-end-radius:50px;
+    text-align: center;
+    max-width: 450px;
+    width: 100%;
+    background:#efefef;
+}
+
+    .event-detail-box .icon {
+        font-size: 47px;
+        color: #fcac45;
+        margin-bottom: 10px;
+    }
+
+    .event-detail-box .detail-title {
+        font-size: 30px;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    .event-detail-box .detail-info {
+        font-size: 1.2em;
+        color: black;
+        line-height: 1.6;
+    }
+
+.contact-details {
+    padding: 0 30px;
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto 30px;
+}
+
+    .contact-details h4 {
+        font-size: 30px;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    .contact-details p {
+        font-size: 1.2em;
+        color: black;
+        margin: 8px 0;
+    }
+
+    .contact-details i {
+        color: #fcac45;
+        margin-right: 8px;
+    }
+
+/* Register Button */
+.register-button-container {
+    padding-top: 1em;
+    padding-bottom:0.5em;
+    text-align: center;
+}
+
+.register-button {
+    background: linear-gradient(135deg, #fdbd71, #ff9040);
+    color: black;
+    padding: 12px 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 22px;
+    border-radius: 4px;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+    transition: all 0.3s ease;
+}
+
+    .register-button:hover {
+        background: #fcac45;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+    }
+
+/* Responsive Design Adjustments */
+@media (max-width: 1440px) {
+    .event-details {
+        gap: 20px; 
+    }
+
+    .event-detail-box .detail-title {
+        font-size: 28px; 
+    }
+
+    .event-detail-box .detail-info {
+        font-size: 18px; 
+    }
+
+    .contact-details h4 {
+        font-size: 28px;
+    }
+
+    .contact-details p {
+        font-size: 18px;
+    }
+
+    .register-button {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .event-details {
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .event-detail-box {
+        padding: 18px 25px;
+    }
+
+    .contact-details {
+        margin: 25px auto;
+        padding: 20px;
+    }
+
+        .contact-details h4 {
+            font-size: 26px;
+        }
+
+        .contact-details p {
+            font-size: 18px;
+        }
+
+    .register-button {
+        font-size: 18px;
+        padding: 12px 22px;
+    }
+}
+
+@media (max-width: 768px) {
+    .event-detail-box {
+        padding: 15px 20px;
+    }
+
+    .contact-details {
+        padding: 15px 20px;
+    }
+
+        .contact-details h4 {
+            font-size: 24px;
+        }
+
+        .contact-details p {
+            font-size: 16px;
+        }
+
+    .register-button {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .avenue{
+        padding-bottom:3em; 
+        padding-left:30px;
+        padding-right:30px;
+
+    }
+    .event-detail-box {
+        padding: 12px 15px;
+    }
+
+        .event-detail-box .detail-title {
+            font-size: 20px;
+        }
+
+        .event-detail-box .detail-info {
+            font-size: 16px;
+        }
+
+    .contact-details {
+        padding: 10px 15px;
+    }
+
+        .contact-details h4 {
+            font-size: 20px;
+        }
+
+        .contact-details p {
+            font-size: 14px;
+        }
+
+    .register-button {
+        font-size: 14px;
+        padding: 8px 18px;
+        border-radius: 6px; /* Smaller corners for compact size */
+    }
+}

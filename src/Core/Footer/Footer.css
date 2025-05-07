@@ -1,0 +1,125 @@
+/*--footer--*/
+.footer {
+    background: #000000;
+    padding: 1em 0;
+}
+
+    .footer p {
+        margin: 0;
+        font-size: 1.3em;
+        color:whitesmoke;
+        padding: 1.5em 0 0 0;
+        text-align: center;
+    }
+
+p.footer-grid {
+    float: none;
+    text-align: center;
+}
+
+.footer a {
+    color: #b2b2b2;
+    text-decoration: none;
+    transition: 0.5s all;
+}
+
+    .footer a:hover {
+        color: #848383;
+    }
+
+ul.social-ic-icons {
+    padding: 1em 0;
+    margin: 0;
+    text-align: center;
+}
+
+    ul.social-ic-icons li {
+        display: inline-block;
+        margin: 0 5px;
+    }
+
+        ul.social-ic-icons li a span {
+            display: inline-block;
+            width: 35px;
+            height: 35px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            border-radius: 50%;
+            transition: transform 0.3s ease, opacity 0.3s ease;
+        }
+
+        /* Facebook Icon */
+        ul.social-ic-icons li.facebook a span {
+            background-image: url('../img/fb.png');
+        }
+
+        /* Twitter Icon */
+        ul.social-ic-icons li.twitter a span {
+            background-image: url('../img/x.png');
+        }
+
+        /* Gmail Icon */
+        ul.social-ic-icons li.gmail a span {
+            background-image: url('../img/gmail.png');
+        }
+
+        /* Browser Icon */
+        ul.social-ic-icons li.browser a span {
+            background-image: url('../img/browser.png');
+        }
+
+        ul.social-ic-icons li a span:hover {
+            opacity: 0.8;
+            transform: scale(1.1);
+        }
+
+/* Scroll to Top Button */
+#toTop {
+    text-decoration: none;
+    position: fixed;
+    bottom: 25px;
+    right: 10px;
+    overflow: hidden;
+    width: 53px;
+    height: 48px;
+    border: none;
+    text-indent: -9999px;
+    background: url('../img/totop.png') no-repeat center center;
+    background-size: auto;
+}
+
+#toTopHover {
+    opacity: 1;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer p {
+        font-size: 1em;
+    }
+
+    ul.social-ic-icons {
+        padding: 0.5em 0;
+    }
+
+        ul.social-ic-icons li {
+            margin: 0 3px;
+        }
+}
+
+@media (max-width: 480px) {
+    .footer p {
+        font-size: 0.9em;
+    }
+
+    ul.social-ic-icons li a span {
+        width: 30px;
+        height: 30px;
+    }
+
+    #toTop {
+        width: 33px;
+        height: 33px;
+    }
+}
