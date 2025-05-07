@@ -1,0 +1,98 @@
+/* Global Styles */
+body {
+    background-color: #F7F7F7;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.org-section {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+/* Title Styling */
+.org-title {
+    font-size: 2.2rem;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+/* Card Styling */
+.org-card {
+    background-color: #ffffff;
+    border: 2px solid #fcac45;
+    border-radius: 5px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 40px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .org-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    }
+
+/* Content Styling */
+.org-body {
+    font-size: 1.3em;
+    text-align: center;
+    color: black;
+}
+
+.org-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+    .org-list li {
+        font-size: 1.2em;
+        padding: 10px 0;
+        border-bottom: 1px solid #ddd;
+        color: black;
+    }
+
+        .org-list li:last-child {
+            border-bottom: none;
+        }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .org-section {
+        padding: 15px;
+        margin:auto;
+    }
+
+    .org-title {
+        font-size: 1.6em;
+        text-align:center;
+    }
+
+    .org-card {
+        padding: 15px;
+    }
+
+    .org-body,
+    .org-list li {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    .org-title {
+        font-size: 1.6em;
+    }
+
+    .org-card {
+        padding: 10px;
+    }
+
+    .org-body,
+    .org-list li {
+        font-size: 0.9em;
+    }
+}
