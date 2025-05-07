@@ -36,9 +36,9 @@ export default function Footer() {
       <div className="footcontainer">
         <div className="footer-class">
           <p className="footer-grid">
-            Copyrights © 2025, All Rights Reserved. Powered By ICCSI
+            Copyrights © 2025, All Rights Reserved.
           </p>
-          <ul className="social-ic-icons">
+          {/* <ul className="social-ic-icons">
             <li className="facebook">
               <a href="https://www.facebook.com/"><span></span></a>
             </li>
@@ -51,7 +51,7 @@ export default function Footer() {
             <li className="browser">
               <a href="#"><span></span></a>
             </li>
-          </ul>
+          </ul> */}
           <div className="clearfix"></div>
         </div>
       </div>

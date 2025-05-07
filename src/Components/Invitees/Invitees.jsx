@@ -9,12 +9,12 @@ export default function Invitees() {
     };
 
     const portfolioItems = [
-        { id: 1, category: 'key', imgSrc: '/img/key1.webp', title: 'Rajesh Kumar, University of Oxford, UK' },
-        { id: 2, category: 'key', imgSrc: '/img/key2.webp', title: 'Priya Sharma, Indian Institute of Science, India' },
-        { id: 3, category: 'chief', imgSrc: '/img/chi1.webp', title: 'Arjun Nair, Digital University Kerala, India' },
-        { id: 4, category: 'chief', imgSrc: '/img/chi2.webp', title: 'Rohan Mehta, City University of London, UK' },
-        { id: 5, category: 'chief', imgSrc: '/img/chi3.webp', title: 'Aarav Singh, University of Delhi, India' },
-        { id: 6, category: 'chief', imgSrc: '/img/chi4.webp', title: 'Aditya Patel, National University of Singapore, Singapore' },
+        { id: 1, category: 'key', imgSrc: '/img/user.png', title: 'Invitees 1, University of Oxford, UK' },
+        { id: 2, category: 'key', imgSrc: '/img/user.png', title: 'Invitees 2, Indian Institute of Science, India' },
+        { id: 3, category: 'key', imgSrc: '/img/user.png', title: 'Invitees 3, Digital University Kerala, India' },
+        // { id: 4, category: 'chief', imgSrc: '/img/chi2.webp', title: 'Rohan Mehta, City University of London, UK' },
+        // { id: 5, category: 'chief', imgSrc: '/img/chi3.webp', title: 'Aarav Singh, University of Delhi, India' },
+        // { id: 6, category: 'chief', imgSrc: '/img/chi4.webp', title: 'Aditya Patel, National University of Singapore, Singapore' },
     ];
 
     return (
@@ -27,7 +27,7 @@ export default function Invitees() {
                 </div>
                 <div className="filter-section">
                     <h6></h6>
-                    <ul className="filters">
+                    {/* <ul className="filters">
                         {['all', 'key', 'chief'].map((filter) => (
                             <li key={filter}>
                                 <span
@@ -38,7 +38,7 @@ export default function Invitees() {
                                 </span>
                             </li>
                         ))}
-                    </ul>
+                    </ul> */}
                 </div>
                 <div id="portfoliolist" className="portfolio-grid">
                     {portfolioItems
