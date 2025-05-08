@@ -15,7 +15,7 @@ export default function Avenue() {
                 </div>
                 <h4 className="detail-title">WHERE</h4>
                 <p className="detail-info">
-                            184 Main Collins Street,<br />
+                            International Conference on Computer Science and Information Technology<br />
                             Chennai,<br />
                             Tamil Nadu, India<br />
                 </p>
@@ -46,7 +46,7 @@ export default function Avenue() {
                     <h4>CONTACT</h4>
                             <p><i className="fas fa-envelope"></i> Email: iccsiconf@gmail.com</p>
                     <p><i className="fas fa-phone"></i> Phone: (226) 446 9731</p>
-                    <p><i className="fas fa-map"></i> Address: 184 Main Collins Street, Chennai, Tamil Nadu</p>
+                    <p><i className="fas fa-map"></i> Address:Chennai, Tamil Nadu, India</p>
                 </div>
             </div>
         </div>

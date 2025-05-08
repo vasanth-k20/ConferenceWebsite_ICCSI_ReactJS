@@ -113,7 +113,7 @@ export default function ContactSection() {
           <div className="col-12 col-md-4">
             <div className="contact-information">
               {[
-                { label: "Address", value: "184 Main Collins Street, Chennai, Tamil Nadu, India" },
+                { label: "Address", value: "Chennai, Tamil Nadu, India" },
                 { label: "Phone", value: "(226) 446 9731" },
                 { label: "Email", value: "iccsiconf@gmail.com" },
               ].map((info, index) => (
