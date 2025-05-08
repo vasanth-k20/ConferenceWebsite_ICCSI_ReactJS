@@ -179,3 +179,10 @@
     }
 
 }
+
+/* Show dropdown on hover for desktop */
+@media (min-width: 769px) {
+    .dropdown:hover .dropdown-menu {
+      display: block;
+    }
+  }

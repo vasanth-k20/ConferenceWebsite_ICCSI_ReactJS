@@ -75,15 +75,22 @@ export default function Header() {
 
     // Close dropdown when a link is clicked inside it
     const closeDropdownOnClick = () => {
-      const dropdownLinks = document.querySelectorAll('.dropdown-menu div a');
-      dropdownLinks.forEach((link) => {
-        link.addEventListener('click', () => {
-          document.querySelectorAll('.nav-links .dropdown.active').forEach((dropdown) => {
-            dropdown.classList.remove('active');
-          });
-        });
+  const dropdownLinks = document.querySelectorAll('.dropdown-menu div a');
+  dropdownLinks.forEach((link) => {
+    link.addEventListener('click', () => {
+      document.querySelectorAll('.nav-links .dropdown.active').forEach((dropdown) => {
+        dropdown.classList.remove('active');
       });
-    };
+
+      // Close mobile menu after click
+      const navMenu = document.querySelector('.top-nav ul');
+      if (window.innerWidth <= 768 && navMenu.classList.contains('active')) {
+        navMenu.classList.remove('active');
+      }
+    });
+  });
+};
+
 
     // Attach event listeners
     document.addEventListener('click', handleDropdownToggle);
