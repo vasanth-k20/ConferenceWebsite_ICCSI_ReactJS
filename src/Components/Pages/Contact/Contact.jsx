@@ -114,8 +114,8 @@ export default function ContactSection() {
             <div className="contact-information">
               {[
                 { label: "Address", value: "Chennai, Tamil Nadu, India" },
-                { label: "Phone", value: "(226) 446 9731" },
-                { label: "Email", value: "iccsiconf@gmail.com" },
+                { label: "Phone", value: "(222) 111 0000" },
+                { label: "Email", value: "x1y2z3@gmail.com" },
               ].map((info, index) => (
                 <div className="mb-3" key={index}>
                   <h4 className="mb-1 fs-4 fw-bold">{info.label}:</h4>

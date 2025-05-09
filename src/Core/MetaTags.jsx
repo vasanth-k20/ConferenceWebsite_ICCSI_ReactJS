@@ -11,55 +11,55 @@ const MetaTags = () => {
       title: "ICCSI | Home",
       description:
         "Welcome to ICCSI – International Conference on Computer Science Innovations. A global platform for researchers, academicians, and industry professionals.",
-      image: `${baseUrl}/img/Logoo.png`,
+      image: `${baseUrl}/img/iccsilogo.png`,
     },
-    "/about": {
+    "/about_the_conference": {
       title: "ICCSI | About the Conference",
       description:
         "Learn about ICCSI – its mission, vision, and contributions to the field of Computer Science Innovations.",
-      image: `${baseUrl}/img/Logoo.png`,
+      image: `${baseUrl}/img/iccsilogo.png`,
     },
-    "/scope": {
+    "/scope_the_conference": {
       title: "ICCSI | Scope of Conference",
       description:
         "Explore the wide range of topics covered under ICCSI – International Conference on Computer Science Innovations.",
-      image: `${baseUrl}/img/Logoo.png`,
+      image: `${baseUrl}/img/iccsilogo.png`,
     },
-    "/organize": {
+    "/organize_committee": {
       title: "ICCSI | Organizing Committee",
       description:
         "Meet the dedicated team organizing the ICCSI – International Conference on Computer Science Innovations.",
-      image: `${baseUrl}/img/Logoo.png`,
+      image: `${baseUrl}/img/iccsilogo.png`,
     },
-    "/editorial": {
+    "/editorial_board": {
       title: "ICCSI | Editorial Board",
       description:
         "View the esteemed editorial board behind ICCSI – curating high-quality academic content.",
-      image: `${baseUrl}/img/Logoo.png`,
+      image: `${baseUrl}/img/iccsilogo.png`,
     },
-    "/keydates": {
+    "/key_dates": {
       title: "ICCSI | Important Dates",
       description:
         "Stay informed on submission deadlines, notification dates, and event schedules for ICCSI.",
-      image: `${baseUrl}/img/Logoo.png`,
+      image: `${baseUrl}/img/iccsilogo.png`,
     },
-    "/registration": {
+    "/registration_details": {
       title: "ICCSI | Registration Details",
       description:
         "Get information on registration fees, categories, and process for attending ICCSI.",
-      image: `${baseUrl}/img/Logoo.png`,
+      image: `${baseUrl}/img/iccsilogo.png`,
     },
-    "/papersub": {
+    "/paper_submission": {
       title: "ICCSI | Paper Submission",
       description:
         "Submit your research paper to ICCSI – a platform for innovative work in Computer Science.",
-      image: `${baseUrl}/img/Logoo.png`,
+      image: `${baseUrl}/img/iccsilogo.png`,
     },
-    "/contact": {
+    "/contact_us": {
       title: "ICCSI | Contact Us",
       description:
         "Have questions? Reach out to the ICCSI organizing committee for support and queries.",
-      image: `${baseUrl}/img/Logoo.png`,
+      image: `${baseUrl}/img/iccsilogo.png`,
     },
   };
 

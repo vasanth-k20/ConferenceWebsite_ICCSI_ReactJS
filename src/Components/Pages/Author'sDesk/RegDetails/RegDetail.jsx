@@ -65,7 +65,7 @@ export default function RegistrationDetails() {
                             </tr>
                             <tr>
                                 <td className="bankdetail-title">Account Number:</td>
-                                <td className="bankdetail-info">045100050302269</td>
+                                <td className="bankdetail-info">000000000000269</td>
                             </tr>
                             <tr>
                                 <td className="bankdetail-title">Branch:</td>
@@ -73,7 +73,7 @@ export default function RegistrationDetails() {
                             </tr>
                             <tr>
                                 <td className="bankdetail-title">IFSC Code:</td>
-                                <td className="bankdetail-info">TMBL0000045</td>
+                                <td className="bankdetail-info">XXXX0000045</td>
                             </tr>
                             <tr>
                                 <td className="bankdetail-title">MICR:</td>

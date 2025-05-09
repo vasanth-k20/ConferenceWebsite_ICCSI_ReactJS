@@ -28,7 +28,7 @@ export default function Avenue() {
                 <h4 className="detail-title">WHEN</h4>
                 <p className="detail-info">
                             25<sup>th</sup> October, 2025<br />
-                    (Friday)
+                    (Saturday)<br />
                 </p>
 
                 {/* Register Button */}
@@ -44,8 +44,8 @@ export default function Avenue() {
                         <i className="fa-solid fa-address-card"></i>
                     </div>
                     <h4>CONTACT</h4>
-                            <p><i className="fas fa-envelope"></i> Email: iccsiconf@gmail.com</p>
-                    <p><i className="fas fa-phone"></i> Phone: (226) 446 9731</p>
+                            <p><i className="fas fa-envelope"></i> Email: x1y2z3@gmail.com</p>
+                    <p><i className="fas fa-phone"></i> Phone: (222) 111 0000</p>
                     <p><i className="fas fa-map"></i> Address:Chennai, Tamil Nadu, India</p>
                 </div>
             </div>

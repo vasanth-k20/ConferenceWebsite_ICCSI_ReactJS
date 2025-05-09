@@ -159,7 +159,7 @@ export default function Header() {
               </div>
             </li>
             <li>
-              <Link to="/contact_us" className={location.pathname === '/contactus' ? 'active' : ''}>
+              <Link to="/contact_us" className={location.pathname === '/contact_us' ? 'active' : ''}>
                 Contact
               </Link>
             </li>
