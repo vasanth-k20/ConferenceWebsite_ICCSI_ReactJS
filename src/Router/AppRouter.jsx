@@ -22,14 +22,14 @@ export default function AppRouter() {
           <Routes>
             <Route element={<Main />}>
               <Route path="/" element={<Home />} />
-              <Route path="/about" element={<AboutConference />} />
-              <Route path="/scope" element={<ScopeOfConference />} />
-              <Route path="/organize" element={<OrganizingCommittee />} />
-              <Route path="/editorial" element={<EditorialBoard />} />
-              <Route path="/keydates" element={<KeyDates />} />
-              <Route path="/registration" element={<RegistrationDetails />} />
-              <Route path="/papersub" element={<PaperSubmission />} />
-              <Route path="/contact" element={<ContactSection />} />
+              <Route path="/about_the_conference" element={<AboutConference />} />
+              <Route path="/scope_the_conference" element={<ScopeOfConference />} />
+              <Route path="/organize_committee" element={<OrganizingCommittee />} />
+              <Route path="/editorial_board" element={<EditorialBoard />} />
+              <Route path="/key_dates" element={<KeyDates />} />
+              <Route path="/registration_details" element={<RegistrationDetails />} />
+              <Route path="/paper_submission" element={<PaperSubmission />} />
+              <Route path="/contact_us" element={<ContactSection />} />
             </Route>
           </Routes>
       </BrowserRouter>

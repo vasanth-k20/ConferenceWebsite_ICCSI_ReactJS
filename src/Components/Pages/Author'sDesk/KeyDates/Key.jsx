@@ -33,25 +33,25 @@ export default function KeyDates() {
                 {/* Row 1 */}
                 <div className="important-date-row lavender-row">
                     <div className="date-title">Last Date for Full Paper Submission</div>
-                    <div className="date-info">17-05-2025</div>
+                    <div className="date-info">17-07-2025</div>
                 </div>
 
                 {/* Row 2 */}
                 <div className="important-date-row lavender-row">
                     <div className="date-title">Notification of Paper Acceptance</div>
-                    <div className="date-info">18-06-2025</div>
+                    <div className="date-info">18-08-2025</div>
                 </div>
 
                 {/* Row 3 */}
                 <div className="important-date-row lavender-row">
                     <div className="date-title">Camera Ready Paper Submission</div>
-                    <div className="date-info">20-06-2025</div>
+                    <div className="date-info">20-09-2025</div>
                 </div>
 
                 {/* Row 4 */}
                 <div className="important-date-row lavender-row">
                     <div className="date-title">Last Date for Registration / Payment</div>
-                    <div className="date-info">02-07-2025</div>
+                    <div className="date-info">02-10-2025</div>
                 </div>
             </section>
             <div>

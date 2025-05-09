@@ -72,6 +72,8 @@ export default function Header() {
         }
       });
     };
+
+    // Close dropdown on link click (updated for desktop)
     const closeDropdownOnClick = () => {
       const allNavLinks = document.querySelectorAll('.top-nav ul li a, .dropdown-menu div a');
       allNavLinks.forEach((link) => {
@@ -86,15 +88,17 @@ export default function Header() {
             dropdown.classList.remove('active');
           });
 
-          // Close mobile nav menu
-          const navMenu = document.querySelector('.top-nav ul');
-          if (window.innerWidth <= 768 && navMenu.classList.contains('active')) {
-            navMenu.classList.remove('active');
+          // Close mobile nav menu only on mobile
+          if (window.innerWidth <= 768) {
+            const navMenu = document.querySelector('.top-nav ul');
+            if (navMenu && navMenu.classList.contains('active')) {
+              navMenu.classList.remove('active');
+            }
           }
         });
       });
     };
-
+    
     // Attach event listeners
     document.addEventListener('click', handleDropdownToggle);
     document.addEventListener('click', handleClickOutside);
@@ -122,7 +126,7 @@ export default function Header() {
       <div className="nav-container">
         <div className="logo">
           <a href="/">
-            <img src="/img/Logoo.png" alt="ICCSI Logo" />
+            <img src="/img/iccsilogo.png" alt="ICCSI Logo" />
           </a>
         </div>
         <nav className="top-nav">
@@ -138,10 +142,10 @@ export default function Header() {
                 About Us <i className="fas fa-chevron-down dropdown-icon"></i>
               </a>
               <div className="dropdown-menu">
-                <div><Link to="/about">About the Conference</Link></div>
-                <div><Link to="/scope">Scope of the Conference</Link></div>
-                <div><Link to="/organize">Organizing Committee</Link></div>
-                <div><Link to="/editorial">Editorial Board</Link></div>
+                <div><Link to="/about_the_conference">About the Conference</Link></div>
+                <div><Link to="/scope_the_conference">Scope of the Conference</Link></div>
+                <div><Link to="/organize_committee">Organizing Committee</Link></div>
+                <div><Link to="/editorial_board">Editorial Board</Link></div>
               </div>
             </li>
             <li className="dropdown">
@@ -149,13 +153,13 @@ export default function Header() {
                 Author's Desk <i className="fas fa-chevron-down dropdown-icon"></i>
               </a>
               <div className="dropdown-menu">
-                <div><Link to="/keydates">Key Dates</Link></div>
-                <div><Link to="/registration">Registration Details</Link></div>
-                <div><Link to="/papersub">New Paper Submission</Link></div>
+                <div><Link to="/key_dates">Key Dates</Link></div>
+                <div><Link to="/registration_details">Registration Details</Link></div>
+                <div><Link to="/paper_submission">New Paper Submission</Link></div>
               </div>
             </li>
             <li>
-              <Link to="/contact" className={location.pathname === '/contact' ? 'active' : ''}>
+              <Link to="/contact_us" className={location.pathname === '/contactus' ? 'active' : ''}>
                 Contact
               </Link>
             </li>

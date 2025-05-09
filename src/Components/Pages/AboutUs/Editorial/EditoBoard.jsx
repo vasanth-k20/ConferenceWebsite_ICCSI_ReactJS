@@ -35,14 +35,14 @@ export default function EditorialBoard() {
                 {/* First Row with Two Members */}
                 <div className="committee-row">
                     <div className="committee-card">
-                        <strong>Dr. B. Deepanraj</strong>
+                        <strong>Name 1</strong>
                         <span>ASP / Mechanical Engg.</span>
                         <br />
                         Prince Mohammed Bin Fahd University,<br />
                         <em>Al Khobar, Saudi Arabia.</em>
                     </div>
                     <div className="committee-card">
-                        <strong>Dr. D. Lenin Singaravelu</strong>
+                        <strong>Name 2</strong>
                         <span>ASP / Production Engg.</span>
                         <br />
                         National Institute of Technology,<br />
@@ -53,14 +53,14 @@ export default function EditorialBoard() {
                 {/* Second Row with Two Members */}
                 <div className="committee-row">
                     <div className="committee-card">
-                        <strong>Dr. N. Senthil Kumar</strong>
+                        <strong>Name 3</strong>
                         <span>AP & Head / Mech</span>
                         <br />
                         National Institute of Technology,<br />
                         <em>Karaikal, UT of Puducherry.</em>
                     </div>
                     <div className="committee-card">
-                        <strong>Dr. K. Devakumar</strong>
+                        <strong>Name 4</strong>
                         <span>Manager</span>
                         <br />
                         Advanced Technology Products,<br />
@@ -71,7 +71,7 @@ export default function EditorialBoard() {
                 {/* Single Member at the Center */}
                 <div className="committee-row">
                     <div className="committee-card large">
-                        <strong>Dr. Nadir Dizge</strong>
+                        <strong>Name 5</strong>
                         <span>Professor</span>
                         <br />
                         Dept. of Environmental Science & Engg.,<br />

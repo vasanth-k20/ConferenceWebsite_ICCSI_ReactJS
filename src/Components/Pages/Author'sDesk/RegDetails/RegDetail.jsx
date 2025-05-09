@@ -60,7 +60,7 @@ export default function RegistrationDetails() {
                             <tr>
                                 <td className="bankdetail-title">Account Name:</td>
                                 <td className="bankdetail-info">
-                                    Name, Professor, Dept. of Computer Science & Engineering, NV College of Engineering and Technology, Chennai.
+                                    International Conference on Computer Science and Information Technology.
                                 </td>
                             </tr>
                             <tr>

@@ -32,7 +32,7 @@ export default function OrganizingCommittee() {
                     <h4 className="org-title">Chairman</h4>
                     <div className="org-card">
                         <div className="org-body">
-                            Dr. N. Anbazhaghan, M.E., Ph.D., Principal
+                            Name, M.E., Ph.D., Principal
                         </div>
                     </div>
                 </div>
@@ -42,10 +42,10 @@ export default function OrganizingCommittee() {
                     <h4 className="org-title">Convenors</h4>
                     <div className="org-card">
                         <ul className="org-list">
-                            <li>Dr. J. Joseph Ignatious, M.E., Ph.D., Professor / ECE</li>
-                            <li>Dr. G. Perumal, M.E., Ph.D., Professor & Head / MECH</li>
-                            <li>Dr. J.K. Jothi Kalpana, M.Tech., Ph.D., Professor / CSE</li>
-                            <li>Dr. S. Shanmuga Sundaram, M.E., Ph.D., Coordinator / S&H</li>
+                            <li>Name 1, M.E., Ph.D., Professor / ECE</li>
+                            <li>Name 2, M.E., Ph.D., Professor & Head / MECH</li>
+                            <li>Name 3, M.Tech., Ph.D., Professor / CSE</li>
+                            <li>Name 4, M.E., Ph.D., Coordinator / S&H</li>
                         </ul>
                     </div>
                 </div>
@@ -55,10 +55,10 @@ export default function OrganizingCommittee() {
                     <h4 className="org-title">Advisory Committee</h4>
                     <div className="org-card">
                         <ul className="org-list">
-                            <li>Mr. G. Sadiq Basha, HOD / ECE</li>
-                            <li>Mr. K. Ramesh, HOD / CSE</li>
-                            <li>Mr. S. Manimaran, HOD / EEE</li>
-                            <li>Mr. A. Kumar, HOD / CIVIL</li>
+                            <li>Name 5, HOD / ECE</li>
+                            <li>Name 6, HOD / CSE</li>
+                            <li>Name 7, HOD / EEE</li>
+                            <li>Name 8, HOD / CIVIL</li>
                         </ul>
                     </div>
                 </div>
@@ -68,10 +68,10 @@ export default function OrganizingCommittee() {
                     <h4 className="org-title">Coordinators</h4>
                     <div className="org-card">
                         <ul className="org-list">
-                            <li>Mr. N. Gobinathan, Assistant Professor / CSE</li>
-                            <li>Mr. P. Paruthillam Vazhuthi, Assistant Professor / ECE</li>
-                            <li>Mr. N. Ejoumalae, Assistant Professor / MEC</li>
-                            <li>Mr. R. Vimalprakash, Assistant Professor / EEE</li>
+                            <li>Name 9, Assistant Professor / CSE</li>
+                            <li>Name 10, Assistant Professor / ECE</li>
+                            <li>Name 11, Assistant Professor / MEC</li>
+                            <li>Name 12, Assistant Professor / EEE</li>
                         </ul>
                     </div>
                 </div>
@@ -81,11 +81,11 @@ export default function OrganizingCommittee() {
                     <h4 className="org-title">Members</h4>
                     <div className="org-card">
                         <ul className="org-list">
-                            <li>Mr. C. Subramaniyan, Associate Professor / MECH</li>
-                            <li>Mr. B. Annadurai, Assistant Professor / EEE</li>
-                            <li>Mrs. T. Priyadarshini, Assistant Professor / ECE</li>
-                            <li>Mr. P. Dinesh Babu, Assistant Professor / CSE</li>
-                            <li>Mrs. S. Sivapriya, Assistant Professor / CIVIL</li>
+                            <li>Name 13, Associate Professor / MECH</li>
+                            <li>Name 14, Assistant Professor / EEE</li>
+                            <li>Name 15, Assistant Professor / ECE</li>
+                            <li>Name 16, Assistant Professor / CSE</li>
+                            <li>Name 17, Assistant Professor / CIVIL</li>
                         </ul>
                     </div>
                 </div>
