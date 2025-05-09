@@ -27,8 +27,7 @@ export default function Avenue() {
                 </div>
                 <h4 className="detail-title">WHEN</h4>
                 <p className="detail-info">
-                            25<sup>th</sup> October, 2025<br />
-                    (Saturday)<br />
+                            23<sup>rd</sup> to 25<sup>th</sup> October, 2025<br />
                 </p>
 
                 {/* Register Button */}
